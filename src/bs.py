@@ -1,7 +1,5 @@
-from math import log, sqrt, exp, pi
+from math import log, sqrt, exp
 from scipy.stats import norm
-
-# http://www.anthony-vba.kefra.com/vba/vba13.htm
 
 class Black_Scholes():
   

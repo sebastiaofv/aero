@@ -11,3 +11,42 @@ Documentation
 -------------
 
 BS - Black-Scholes
+
+Black_Scholes([S, K, r, t], volatility=x, c_price=y, p_price=z)
+
+
+~~ Inputs ~~
+
+S - Spot Price (Required)
+K - Strike Price (Required)
+r - Interest Rate (Required)
+t - Time to expiration (Required)
+volatility - Implied Volatility (Required if no c_price | p_price)
+c_price - Call Price (Required if no volatility | p_price)
+p_price - Put Price (Required if no volatility | c_price )
+
+
+~~ Variables ~~
+
+cPrice - Call Price
+pPrice - Put Price
+
+cDelta - Call Delta
+pDelta - Put Delta
+
+Gamma - Option Gamma
+
+Vega - Option Vega
+
+cTheta - Call Theta 
+pTheta - Put Theta
+
+cRho - Call Rho
+pRho - Put Rho
+
+impliedVolatility - Implied Volatility from call/put price
+
+
+~~ Functions ~~
+# TODO
+
